@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="3; url=https://tiliajs.dev/">
+<link rel="canonical" href="https://tiliajs.dev/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e7d3a' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 21c.5 -4.5 2.5 -8 7 -10'/%3E%3Cpath d='M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3l.014 0'/%3E%3C/svg%3E">
+<title>tilia has moved to tiliajs.dev</title>
+<style>
+:root { --bg: #fbfaf7; --fg: #1d201c; --muted: #5f665c; --accent: #2e7d3a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151714; --fg: #e8ebe5; --muted: #9aa396; --accent: #6cc47a; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  display: grid; place-items: center; padding: 24px 16px;
+  background: var(--bg); color: var(--fg);
+  font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 32rem; }
+h1 { margin: 0 0 .75rem; font-size: 2rem; letter-spacing: -.02em; color: var(--accent); }
+p { margin: 0 0 .75rem; }
+a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
+.muted { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>tilia</h1>
+<p>tilia has moved to <strong>tiliajs.dev</strong>.</p>
+<p><a id="dest" href="https://tiliajs.dev/">https://tiliajs.dev/</a></p>
+<p class="muted">You are being redirected&hellip;</p>
+</main>
+<script>
+var url = "https://tiliajs.dev" + location.pathname + location.search + location.hash;
+var dest = document.getElementById("dest");
+dest.href = url;
+dest.textContent = url;
+setTimeout(function () { location.replace(url); }, 2000);
+</script>
+</body>
+</html>

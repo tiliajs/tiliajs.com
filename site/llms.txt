@@ -1,0 +1,2 @@
+tilia's documentation has moved to https://tiliajs.dev.
+Compact models for agents: https://tiliajs.dev/llms.txt (tilia), https://tiliajs.dev/query/llms.txt (@tilia/query), https://tiliajs.dev/react/llms.txt (@tilia/react).
